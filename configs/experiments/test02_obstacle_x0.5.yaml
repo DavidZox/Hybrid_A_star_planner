@@ -1,0 +1,9 @@
+# 簡報 p.4「Hybrid A* 演算法測試 (2)」：障礙物 x=0.5
+# 只列出與 configs/base.yaml 不同的欄位
+name: test02_obstacle_x0.5
+slide: 4
+title: Hybrid A* 演算法測試 (2)
+label: T02 障礙物 x=0.5
+description: 障礙物 x=0.5
+obstacle:
+  x: 0.5

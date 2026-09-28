@@ -1,0 +1,11 @@
+# 簡報 p.10「Hybrid A* 演算法測試 (8)」：reverse_penalty 0.3 → 2.0
+# 只列出與 configs/base.yaml 不同的欄位
+name: test08_reverse_penalty2.0
+slide: 10
+title: Hybrid A* 演算法測試 (8)
+label: T08 reverse 2.0
+description: reverse_penalty 0.3 → 2.0
+obstacle:
+  x: 0.9
+planner:
+  reverse_penalty: 2.0

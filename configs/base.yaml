@@ -1,0 +1,51 @@
+# 基準參數（簡報 p.3「Hybrid A* 演算法測試 (1)」的設定，障礙物位置由各實驗覆寫）
+# 標註「反推」的數值在簡報中沒有文字，是由結果圖量測或擬合而得（見 README §6）。
+
+start:                    # AMR 起始位姿
+  x: 1.0
+  y: 1.0
+  theta_deg: 75.0         # 反推：由各圖起點第一段虛線方向求得
+
+main_path:                # 目標主路徑（紅線），起點即 Main Path Entry = Smac 規劃終點
+  start: [1.5, -0.5]
+  end: [5.0, -0.5]
+  spacing: 0.1            # 反推
+
+costmap:                  # 代價地圖範圍（圖中淡黃色區域）
+  x_min: -0.5
+  y_min: -1.5
+  width: 6.0
+  height: 4.0
+  resolution: 0.05
+
+obstacle:                 # self.costmap.add_obstacle(x, y, radius, inflation_radius)
+  x: 0.1
+  y: 0.1
+  radius: 0.2
+  inflation_radius: 0.35
+
+planner:
+  step_size: 0.06
+  steer_angle_deg: 12.0
+  angle_bin_deg: 8.0
+  xy_resolution: 0.05
+  reverse_penalty: 0.3
+  change_dir_penalty: 0.8
+  steering_penalty: 0.1
+  cost_penalty: 0.01      # 反推：地圖代價權重
+  heading_weight: 0.8
+  goal_dist_tolerance: 0.1
+  goal_angle_tolerance_deg: 45.0
+  roi_margin: 1.5         # 反推：由 ROI 框尺寸求得
+  robot_radius: 0.22      # 反推：由機器人圓與紅色碰撞邊界（0.42 = 0.2 + 0.22）量得
+  max_iterations: 30000   # 反推
+
+tracking:                 # Pure Pursuit：v = default_speed * move_dir, w = clip(k_alpha * α, -w_max, w_max)
+  default_speed: 0.15     # 反推
+  lookahead: 0.2          # 反推
+  k_alpha: 2.5
+  w_max: 1.0
+  dt: 0.1                 # 反推
+  segment_tolerance: 0.15 # 反推：距離子段終點小於此值即切換到下一段
+  goal_tolerance: 0.1     # 距離主路徑終點小於此值即完成
+  max_steps_per_phase: 4000

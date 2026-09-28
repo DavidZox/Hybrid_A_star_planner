@@ -1,0 +1,52 @@
+start:
+  x: 1.0
+  y: 1.0
+  theta_deg: 75.0
+main_path:
+  start:
+  - 1.5
+  - -0.5
+  end:
+  - 5.0
+  - -0.5
+  spacing: 0.1
+costmap:
+  x_min: -0.5
+  y_min: -1.5
+  width: 6.0
+  height: 4.0
+  resolution: 0.05
+obstacle:
+  x: 0.9
+  y: 0.1
+  radius: 0.2
+  inflation_radius: 0.35
+planner:
+  step_size: 0.06
+  steer_angle_deg: 12.0
+  angle_bin_deg: 8.0
+  xy_resolution: 0.05
+  reverse_penalty: 0.3
+  change_dir_penalty: 0.8
+  steering_penalty: 0.1
+  cost_penalty: 0.01
+  heading_weight: 0.8
+  goal_dist_tolerance: 0.1
+  goal_angle_tolerance_deg: 45.0
+  roi_margin: 1.5
+  robot_radius: 0.22
+  max_iterations: 30000
+tracking:
+  default_speed: 0.15
+  lookahead: 0.2
+  k_alpha: 2.5
+  w_max: 1.0
+  dt: 0.1
+  segment_tolerance: 0.15
+  goal_tolerance: 0.1
+  max_steps_per_phase: 4000
+name: test03_obstacle_x0.9
+slide: 5
+title: Hybrid A* 演算法測試 (3)
+label: T03 障礙物 x=0.9
+description: 障礙物 x=0.9

@@ -1,0 +1,10 @@
+{"theta0":[75],
+ "angle_bin_deg":[8,22.5,45],
+ "key_dir":[true,false],
+ "key_xy":["floor","int"],
+ "key_th":["floor","int"],
+ "start_dir":[0,1],
+ "rev_mode":["mult","add"],
+ "steer_mode":["add","abs","mult"],
+ "goal_ang2_mode":["none","bearing_vs_heading"],
+ "map_w":[0.0,0.01]}

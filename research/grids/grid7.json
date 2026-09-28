@@ -1,0 +1,8 @@
+{"theta0":[75],
+ "goal_ang2_mode":["motion_and_bearing","motion_vs_goal"],
+ "angle_bin_deg":[8],
+ "key_dir":[true],
+ "rev_mode":["mult"],
+ "steer_mode":["mult","abs"],
+ "map_w":[0.0,0.002,0.005,0.01,0.015,0.02,0.03,0.05],
+ "map_mode":["add","mult_step"]}

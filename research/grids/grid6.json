@@ -1,0 +1,9 @@
+{"theta0":[75],
+ "goal_ang2_mode":["motion_vs_goal","motion_and_bearing"],
+ "angle_bin_deg":[8,22.5,45],
+ "key_dir":[true,false],
+ "rev_mode":["mult","add"],
+ "steer_mode":["add","abs","mult"],
+ "map_w":[0.0,0.01],
+ "goal_on":["pop","gen"],
+ "closed_on":["pop","push"]}

@@ -1,0 +1,107 @@
+{
+ "1": [
+  "SMAC Planner 概念說明"
+ ],
+ "2": [
+  "SMAC Planner 範例代碼測試"
+ ],
+ "3": [
+  "Hybrid A* 演算法測試 (1)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 0.1",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.1, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "4": [
+  "Hybrid A* 演算法測試 (2)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 0.1",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.5, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "5": [
+  "Hybrid A* 演算法測試 (3)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 0.1",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.9, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "6": [
+  "Hybrid A* 演算法測試 (4)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 0.1",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=1.2, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "7": [
+  "Hybrid A* 演算法測試 (5)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 0.1",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=1.5, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "8": [
+  "Hybrid A* 演算法測試 (6)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 0.8",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.9, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "9": [
+  "Hybrid A* 演算法測試 (7)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 2.0",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.9, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "10": [
+  "Hybrid A* 演算法測試 (8)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 2.0",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 0.1",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.9, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "11": [
+  "Hybrid A* 演算法測試 (9)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 10.0",
+  "self.change_dir_penalty = 0.8",
+  "self.steering_penalty = 0.1",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.9, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "12": [
+  "Hybrid A* 演算法測試 (10)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.1",
+  "self.steering_penalty = 0.1",
+  "dist < 0.1 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.9, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ],
+ "13": [
+  "Hybrid A* 演算法測試 (11)",
+  "self.step_size = 0.06",
+  "self.reverse_penalty = 0.3",
+  "self.change_dir_penalty = 0.1",
+  "self.steering_penalty = 0.1",
+  "dist < 1.0 and angle_diff < np.radians(45) and goal_angle_diff < np.radians(45)",
+  "self.costmap.add_obstacle(x=0.9, y=0.1, radius=0.2, inflation_radius=0.35)"
+ ]
+}

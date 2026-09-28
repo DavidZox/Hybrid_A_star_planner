@@ -1,0 +1,8 @@
+{"theta0":[75],
+ "rev_mode":["add","mult"],
+ "steer_mode":["add","mult","abs"],
+ "map_w":[0.0,0.01],
+ "start_dir":[0,1],
+ "goal_ang2_mode":["none","bearing_vs_heading","bearing_vs_goal","bearing_dir"],
+ "closed_on":["pop","push"],
+ "xy_res":[0.05,0.1]}

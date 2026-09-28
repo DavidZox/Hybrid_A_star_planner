@@ -1,0 +1,15 @@
+# 由簡報第 3–13 頁結果圖人工判讀的路徑特徵（供 compare_with_slides.py 對照）
+# cusps: 綠色規劃路徑上的換向（前進/倒車切換）次數
+# arrival: 抵達 Main Path Entry 的方式；goal: 路徑終點是否滿足終點條件（dist<0.1 且角度 <45°）
+# route: 路徑型態簡述
+3:  {cusps: 1, arrival: forward, goal: true,  route: 起點左偏倒車直下，左下方換向後前進接入}
+4:  {cusps: 1, arrival: forward, goal: true,  route: 貼著障礙物右側倒車直下，底部換向後前進}
+5:  {cusps: 1, arrival: forward, goal: true,  route: 先右轉繞到障礙物右側倒車下降，入口左側換向後前進}
+6:  {cusps: 1, arrival: forward, goal: true,  route: 由障礙物左側倒車下降，左下方換向後前進}
+7:  {cusps: 1, arrival: forward, goal: true,  route: 與 p.3 相同（障礙物未擋到路線）}
+8:  {cusps: 0, arrival: reverse, goal: true,  route: 繞障礙物右側一路倒車，由右上方倒車進入}
+9:  {cusps: 0, arrival: reverse, goal: true,  route: 同 p.8 但更平滑，終點略越過入口}
+10: {cusps: 0, arrival: forward, goal: true,  route: 全程前進，先上方右迴轉再往下接入口}
+11: {cusps: 0, arrival: forward, goal: false, route: 全程前進，迴轉幅度較大，抵達入口時車頭朝下（未滿足角度條件）}
+12: {cusps: 2, arrival: reverse, goal: false, route: 起點短倒車後前進斜下，再倒車；終點距入口約 0.23 m}
+13: {cusps: 1, arrival: forward, goal: true,  route: 倒車繞障礙物左側到最左下，換向前進後以約 1 m 直線解析擴展接入}

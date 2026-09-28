@@ -1,0 +1,12 @@
+test01_obstacle_x0.1                 path  19.9 cm  traj  12.9 cm  cusps 1/1  arrival forward/forward
+test02_obstacle_x0.5                 path  10.1 cm  traj   6.1 cm  cusps 1/1  arrival forward/forward
+test03_obstacle_x0.9                 path   7.7 cm  traj   5.8 cm  cusps 1/1  arrival forward/forward
+test04_obstacle_x1.2                 path   5.0 cm  traj   3.7 cm  cusps 1/1  arrival forward/forward
+test05_obstacle_x1.5                 path   8.2 cm  traj   6.2 cm  cusps 1/1  arrival forward/forward
+test06_steering_penalty0.8           path   3.9 cm  traj   3.3 cm  cusps 0/1  arrival reverse/forward
+test07_steering_penalty2.0           path   1.8 cm  traj   1.4 cm  cusps 0/1  arrival reverse/forward
+test08_reverse_penalty2.0            path   3.2 cm  traj   2.1 cm  cusps 0/0  arrival forward/forward
+test09_reverse_penalty10.0           path  10.8 cm  traj  10.4 cm  cusps 0/0  arrival forward/forward
+test10_change_dir_penalty0.1         path   6.2 cm  traj   4.6 cm  cusps 2/3  arrival reverse/forward
+test11_change_dir0.1_goal_dist1.0    path  48.6 cm  traj  32.6 cm  cusps 1/1  arrival forward/forward
+-> /home/david/Hybrid_A_star_planner/results/comparison and results/reproduction_check.csv

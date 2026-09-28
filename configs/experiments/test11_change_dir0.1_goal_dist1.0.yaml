@@ -1,0 +1,12 @@
+# 簡報 p.13「Hybrid A* 演算法測試 (11)」：change_dir_penalty 0.1 且終點距離容許 0.1 → 1.0 m
+# 只列出與 configs/base.yaml 不同的欄位
+name: test11_change_dir0.1_goal_dist1.0
+slide: 13
+title: Hybrid A* 演算法測試 (11)
+label: T11 change_dir 0.1 + 終點 1 m
+description: change_dir_penalty 0.1 且終點距離容許 0.1 → 1.0 m
+obstacle:
+  x: 0.9
+planner:
+  change_dir_penalty: 0.1
+  goal_dist_tolerance: 1.0

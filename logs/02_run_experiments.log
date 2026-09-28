@@ -1,0 +1,12 @@
+test01_obstacle_x0.1                 found       it=  8632   128.7 ms  L=2.07 m (fwd 0.39 / rev 1.68)  cusps=1  track_err=1.2 cm  final=(4.912, -0.500)
+test02_obstacle_x0.5                 found       it=  7064   105.4 ms  L=2.07 m (fwd 0.39 / rev 1.68)  cusps=1  track_err=1.2 cm  final=(4.912, -0.500)
+test03_obstacle_x0.9                 found       it= 12934   204.2 ms  L=2.11 m (fwd 0.25 / rev 1.86)  cusps=1  track_err=1.1 cm  final=(4.904, -0.500)
+test04_obstacle_x1.2                 found       it= 19141   320.7 ms  L=2.54 m (fwd 0.98 / rev 1.56)  cusps=1  track_err=2.4 cm  final=(4.909, -0.500)
+test05_obstacle_x1.5                 found       it=  9310   141.6 ms  L=2.19 m (fwd 0.75 / rev 1.44)  cusps=1  track_err=2.5 cm  final=(4.902, -0.500)
+test06_steering_penalty0.8           found       it= 11369   183.8 ms  L=1.94 m (fwd 0.14 / rev 1.80)  cusps=1  track_err=5.0 cm  final=(4.912, -0.500)
+test07_steering_penalty2.0           found       it= 27109   477.7 ms  L=2.01 m (fwd 0.09 / rev 1.92)  cusps=1  track_err=1.0 cm  final=(4.914, -0.500)
+test08_reverse_penalty2.0            found       it= 11827   188.0 ms  L=2.41 m (fwd 2.41 / rev 0.00)  cusps=0  track_err=1.4 cm  final=(4.902, -0.500)
+test09_reverse_penalty10.0           found       it=  9779   144.8 ms  L=2.41 m (fwd 2.41 / rev 0.00)  cusps=0  track_err=1.4 cm  final=(4.902, -0.500)
+test10_change_dir_penalty0.1         found       it=  9892   158.0 ms  L=2.56 m (fwd 1.84 / rev 0.72)  cusps=3  track_err=4.8 cm  final=(4.905, -0.500)
+test11_change_dir0.1_goal_dist1.0    found       it=  1086    12.1 ms  L=2.13 m (fwd 1.83 / rev 0.30)  cusps=1  track_err=2.9 cm  final=(4.915, -0.500)
+-> /home/david/Hybrid_A_star_planner/results/metrics.csv

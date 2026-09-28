@@ -1,0 +1,9 @@
+# 簡報 p.3「Hybrid A* 演算法測試 (1)」：障礙物 x=0.1（基準參數）
+# 只列出與 configs/base.yaml 不同的欄位
+name: test01_obstacle_x0.1
+slide: 3
+title: Hybrid A* 演算法測試 (1)
+label: T01 障礙物 x=0.1
+description: 障礙物 x=0.1（基準參數）
+obstacle:
+  x: 0.1

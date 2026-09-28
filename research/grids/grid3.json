@@ -1,0 +1,10 @@
+{"theta0":[75],
+ "rev_mode":["mult","add"],
+ "steer_mode":["add","abs","mult"],
+ "goal_ang2_mode":["none","bearing_vs_heading","bearing_dir","bearing_vs_goal"],
+ "closed_on":["pop","push"],
+ "xy_res":[0.05,0.1],
+ "key_th":["floor","int"],
+ "start_dir":[0,1],
+ "goal_on":["pop","gen"],
+ "dedup":["none","best_g"]}

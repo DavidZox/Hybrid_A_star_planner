@@ -1,0 +1,11 @@
+# 簡報 p.12「Hybrid A* 演算法測試 (10)」：change_dir_penalty 0.8 → 0.1
+# 只列出與 configs/base.yaml 不同的欄位
+name: test10_change_dir_penalty0.1
+slide: 12
+title: Hybrid A* 演算法測試 (10)
+label: T10 change_dir 0.1
+description: change_dir_penalty 0.8 → 0.1
+obstacle:
+  x: 0.9
+planner:
+  change_dir_penalty: 0.1

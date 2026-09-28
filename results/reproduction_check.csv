@@ -1,0 +1,12 @@
+name,slide,label,change,path_dev_mean_cm,path_dev_p95_cm,traj_dev_mean_cm,traj_dev_p95_cm,cusps_slide,cusps_repro,arrival_slide,arrival_repro,goal_slide,goal_repro,route_slide
+test01_obstacle_x0.1,3,T01 障礙物 x=0.1,障礙物 x=0.1（基準參數）,19.9,47.7,12.9,45.3,1,1,forward,forward,True,True,起點左偏倒車直下，左下方換向後前進接入
+test02_obstacle_x0.5,4,T02 障礙物 x=0.5,障礙物 x=0.5,10.1,22.1,6.1,20.9,1,1,forward,forward,True,True,貼著障礙物右側倒車直下，底部換向後前進
+test03_obstacle_x0.9,5,T03 障礙物 x=0.9,障礙物 x=0.9,7.7,19.2,5.8,19.6,1,1,forward,forward,True,True,先右轉繞到障礙物右側倒車下降，入口左側換向後前進
+test04_obstacle_x1.2,6,T04 障礙物 x=1.2,障礙物 x=1.2,5.0,13.2,3.7,13.6,1,1,forward,forward,True,True,由障礙物左側倒車下降，左下方換向後前進
+test05_obstacle_x1.5,7,T05 障礙物 x=1.5,障礙物 x=1.5,8.2,17.1,6.2,17.4,1,1,forward,forward,True,True,與 p.3 相同（障礙物未擋到路線）
+test06_steering_penalty0.8,8,T06 steering 0.8,steering_penalty 0.1 → 0.8,3.9,10.5,3.3,10.1,0,1,reverse,forward,True,True,繞障礙物右側一路倒車，由右上方倒車進入
+test07_steering_penalty2.0,9,T07 steering 2.0,steering_penalty 0.1 → 2.0,1.8,5.0,1.4,4.6,0,1,reverse,forward,True,True,同 p.8 但更平滑，終點略越過入口
+test08_reverse_penalty2.0,10,T08 reverse 2.0,reverse_penalty 0.3 → 2.0,3.2,10.1,2.1,7.6,0,0,forward,forward,True,True,全程前進，先上方右迴轉再往下接入口
+test09_reverse_penalty10.0,11,T09 reverse 10.0,reverse_penalty 0.3 → 10.0,10.8,24.7,10.4,23.2,0,0,forward,forward,False,True,全程前進，迴轉幅度較大，抵達入口時車頭朝下（未滿足角度條件）
+test10_change_dir_penalty0.1,12,T10 change_dir 0.1,change_dir_penalty 0.8 → 0.1,6.2,17.5,4.6,16.4,2,3,reverse,forward,False,True,起點短倒車後前進斜下，再倒車；終點距入口約 0.23 m
+test11_change_dir0.1_goal_dist1.0,13,T11 change_dir 0.1 + 終點 1 m,change_dir_penalty 0.1 且終點距離容許 0.1 → 1.0 m,48.6,123.5,32.6,124.9,1,1,forward,forward,True,True,倒車繞障礙物左側到最左下，換向前進後以約 1 m 直線解析擴展接入

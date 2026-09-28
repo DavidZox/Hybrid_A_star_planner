@@ -1,0 +1,11 @@
+# 簡報 p.9「Hybrid A* 演算法測試 (7)」：steering_penalty 0.1 → 2.0
+# 只列出與 configs/base.yaml 不同的欄位
+name: test07_steering_penalty2.0
+slide: 9
+title: Hybrid A* 演算法測試 (7)
+label: T07 steering 2.0
+description: steering_penalty 0.1 → 2.0
+obstacle:
+  x: 0.9
+planner:
+  steering_penalty: 2.0
